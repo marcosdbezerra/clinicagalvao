@@ -7,7 +7,6 @@ import arturGadelha from '../../assets/team/artur-gadelha.png';
 import eduardoSoares from '../../assets/team/eduardo-soares.png';
 import flavioStudart from '../../assets/team/flavio-studart.png';
 import laylaMenezes from '../../assets/team/layla-menezes.png';
-import liviaMota from '../../assets/team/livia-mota.png';
 import mariliaDantas from '../../assets/team/marilia-dantas.png';
 import moniqueChaves from '../../assets/team/monique-chaves.png';
 import oliviaMagalhaes from '../../assets/team/olivia-magalhaes.png';
@@ -91,17 +90,10 @@ const Team = () => {
     },
     {
       name: 'Dra. Letícia Facundo',
-      specialty: '',
+      specialty: 'Clínica Médica',
       crm: '',
       photo: photoMock,
-      bio: '',
-    },
-    {
-      name: 'Dra. Lívia Mota',
-      specialty: 'Pediatria',
-      crm: 'CRM/CE 19833',
-      photo: liviaMota,
-      bio: 'Atendimento especializado para bebês e crianças, focada no desenvolvimento infantil saudável.',
+      bio: 'Atendimento médico integral e preventivo, para diagnóstico e acompanhamento geral da saúde.',
     },
     {
       name: 'Dra. Marília Dantas',
