@@ -4,7 +4,7 @@ import fachada from '../../assets/fachada.jpg'
 import Button from '../ui/Button';
 
 const Hero = () => {
-  const whatsappNumber = '5511999999999'; // Replace with actual number
+  const whatsappNumber = '5585996438060';
 
   const openWhatsApp = () => {
     const message = encodeURIComponent('Olá! Gostaria de agendar uma consulta.');
