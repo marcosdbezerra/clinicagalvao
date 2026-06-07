@@ -73,6 +73,36 @@ const Specialties = () => {
       color: 'bg-violet-100 text-violet-600',
     },
     {
+      icon: <Stethoscope className="w-8 h-8" />,
+      name: 'Ginecologia',
+      description: 'Saúde integral da mulher em todas as fases da vida.',
+      color: 'bg-rose-100 text-rose-600',
+    },
+    {
+      icon: <Baby className="w-8 h-8" />,
+      name: 'Geriatria',
+      description: 'Cuidados especializados para a saúde do idoso.',
+      color: 'bg-amber-100 text-amber-600',
+    },
+    {
+      icon: <Briefcase className="w-8 h-8" />,
+      name: 'Medicina do Trabalho',
+      description: 'Saúde ocupacional e prevenção de doenças profissionais.',
+      color: 'bg-slate-100 text-slate-600',
+    },
+    {
+      icon: <Car className="w-8 h-8" />,
+      name: 'Medicina do Tráfego',
+      description: 'Avaliação de aptidão para condutores.',
+      color: 'bg-lime-100 text-lime-600',
+    },
+    {
+      icon: <Brain className="w-8 h-8" />,
+      name: 'Neurologia',
+      description: 'Diagnóstico e tratamento de doenças do sistema nervoso.',
+      color: 'bg-blue-100 text-blue-600',
+    },
+    {
       icon: <Apple className="w-8 h-8" />,
       name: 'Nutrição',
       description: 'Orientação alimentar personalizada para sua saúde.',
@@ -97,34 +127,10 @@ const Specialties = () => {
       color: 'bg-purple-100 text-purple-600',
     },
     {
-      icon: <Baby className="w-8 h-8" />,
-      name: 'Geriatria',
-      description: 'Cuidados especializados para a saúde do idoso.',
-      color: 'bg-amber-100 text-amber-600',
-    },
-    {
-      icon: <Stethoscope className="w-8 h-8" />,
-      name: 'Ginecologia',
-      description: 'Saúde integral da mulher em todas as fases da vida.',
-      color: 'bg-rose-100 text-rose-600',
-    },
-    {
       icon: <Scan className="w-8 h-8" />,
       name: 'Ultrassonografia',
       description: 'Diagnóstico por imagem com tecnologia avançada.',
       color: 'bg-cyan-100 text-cyan-600',
-    },
-    {
-      icon: <Briefcase className="w-8 h-8" />,
-      name: 'Medicina do Trabalho',
-      description: 'Saúde ocupacional e prevenção de doenças profissionais.',
-      color: 'bg-slate-100 text-slate-600',
-    },
-    {
-      icon: <Car className="w-8 h-8" />,
-      name: 'Medicina do Tráfego',
-      description: 'Avaliação de aptidão para condutores.',
-      color: 'bg-lime-100 text-lime-600',
     },
   ];
 

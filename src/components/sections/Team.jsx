@@ -4,6 +4,7 @@ import SectionWrapper from '../ui/SectionWrapper';
 import amandaGalvao from '../../assets/team/amanda-galvao.png';
 import amandaSales from '../../assets/team/amanda-sales.png';
 import arturGadelha from '../../assets/team/artur-gadelha.png';
+import brendowMartin from '../../assets/team/brendow-martin.png';
 import eduardoSoares from '../../assets/team/eduardo-soares.png';
 import flavioStudart from '../../assets/team/flavio-studart.png';
 import laylaMenezes from '../../assets/team/layla-menezes.png';
@@ -45,6 +46,13 @@ const Team = () => {
       crm: 'CRM/CE 23594',
       photo: arturGadelha,
       bio: 'Atendimento médico integral e preventivo, para diagnóstico e acompanhamento geral da saúde.',
+    },
+    {
+      name: 'Dr. Brendow Mártin',
+      specialty: 'Neurologista',
+      crm: 'CRM/CE 22318 - RQE 18935',
+      photo: brendowMartin,
+      bio: 'Atendimento neurológico integral e preventivo, para acompanhamento da saúde do sistema nervoso.',
     },
     {
       name: 'Dr. Davi Candeira',
