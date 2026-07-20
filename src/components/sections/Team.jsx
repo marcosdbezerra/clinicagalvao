@@ -1,20 +1,24 @@
 import { useRef, useState, useCallback, useEffect } from 'react';
 import { motion, useMotionValue } from 'framer-motion';
 import SectionWrapper from '../ui/SectionWrapper';
-import amandaGalvao from '../../assets/team/amanda-galvao.png';
-import amandaSales from '../../assets/team/amanda-sales.png';
-import arturGadelha from '../../assets/team/artur-gadelha.png';
-import brendowMartin from '../../assets/team/brendow-martin.png';
-import eduardoSoares from '../../assets/team/eduardo-soares.png';
-import flavioStudart from '../../assets/team/flavio-studart.png';
-import laylaMenezes from '../../assets/team/layla-menezes.png';
-import mariliaDantas from '../../assets/team/marilia-dantas.png';
-import moniqueChaves from '../../assets/team/monique-chaves.png';
-import oliviaMagalhaes from '../../assets/team/olivia-magalhaes.png';
-import phGalvao from '../../assets/team/pedro-henrique-galvao.png';
-import renataBraga from '../../assets/team/renata-braga.png';
-import romeniaOliveira from '../../assets/team/romenia-oliveira.png';
-import sherlianeFurtado from '../../assets/team/sherliane-furtado.png';
+import amandaGalvao from '../../assets/team/amanda-galvao.webp';
+import amandaSales from '../../assets/team/amanda-sales.webp';
+import arturGadelha from '../../assets/team/artur-gadelha.webp';
+import brendowMartin from '../../assets/team/brendow-martin.webp';
+import carolRios from '../../assets/team/carol-rios.webp';
+import daviCandeira from '../../assets/team/davi-candeira.webp';
+import eduardoAtila from '../../assets/team/eduardo-atila.webp';
+import flavioStudart from '../../assets/team/flavio-studart.webp';
+import gilmarPinto from '../../assets/team/gilmar-pinto.webp';
+import jamilleMorais from '../../assets/team/jamille-morais.webp';
+import laylaMenezes from '../../assets/team/layla-menezes.webp';
+import mariliaDantas from '../../assets/team/marilia-dantas.webp';
+import moniqueChaves from '../../assets/team/monique-chaves.webp';
+import oliviaMagalhaes from '../../assets/team/olivia-magalhaes.webp';
+import phGalvao from '../../assets/team/pedro-henrique-galvao.webp';
+import renataBraga from '../../assets/team/renata-braga.webp';
+import romeniaOliveira from '../../assets/team/romenia-oliveira.webp';
+import sherlianeFurtado from '../../assets/team/sherliane-furtado.webp';
 import photoMock from '../../assets/team/photo-mock.jpg';
 
 const Team = () => {
@@ -55,17 +59,24 @@ const Team = () => {
       bio: 'Atendimento neurológico integral e preventivo, para acompanhamento da saúde do sistema nervoso.',
     },
     {
+      name: 'Dra. Carol Rios',
+      specialty: 'Pediatra | Gastroenterologia Pediátrica',
+      crm: 'CREMEC 8566 - RQE 5659',
+      photo: carolRios,
+      bio: 'Especialista em saúde infantil e gastroenterologia pediátrica, para o bem-estar da criança.',
+    },
+    {
       name: 'Dr. Davi Candeira',
       specialty: 'Dermatologia',
       crm: 'CRM/CE 23691',
-      photo: photoMock,
+      photo: daviCandeira,
       bio: 'Especialista no diagnóstico e tratamento de doenças da pele, cabelos e unhas.',
     },
     {
-      name: 'Dr. Eduardo Soares',
+      name: 'Dr. Eduardo Átila',
       specialty: 'Ultrassonografia',
       crm: 'CRM/CE 12578',
-      photo: eduardoSoares,
+      photo: eduardoAtila,
       bio: 'Especialista em diagnóstico por imagem, realizando exames de ultrassonografia com precisão.',
     },
     {
@@ -76,17 +87,17 @@ const Team = () => {
       bio: 'Especialista em saúde do coração, com foco na prevenção, diagnóstico e tratamentos cardiovasculares.',
     },
     {
-      name: 'Dr. Gilmar Rodrigues',
+      name: 'Dr. Gilmar Pinto',
       specialty: 'Psiquiatria',
       crm: 'CRM/CE 27182',
-      photo: photoMock,
+      photo: gilmarPinto,
       bio: 'Médico dedicado ao diagnóstico e tratamento de transtornos mentais, buscando o equilíbrio e bem-estar.',
     },
     {
       name: 'Dra. Jamille Morais',
-      specialty: 'Nutrição Infantil',
+      specialty: 'Nutrição Materno Infantil',
       crm: 'CRN/CE 116593',
-      photo: photoMock,
+      photo: jamilleMorais,
       bio: 'Nutricionista especializada no cuidado alimentar de crianças, introdução alimentar e hábitos saudáveis.',
     },
     {
@@ -97,11 +108,11 @@ const Team = () => {
       bio: 'Cuidado da saúde mental e emocional através de psicoterapia personalizada, autoconhecimento e equilíbrio.',
     },
     {
-      name: 'Dra. Letícia Facundo',
-      specialty: 'Clínica Médica',
+      name: 'Dra. Maria Tereza',
+      specialty: 'Saúde da Criança e Pediatria',
       crm: '',
       photo: photoMock,
-      bio: 'Atendimento médico integral e preventivo, para diagnóstico e acompanhamento geral da saúde.',
+      bio: 'Dedicada ao atendimento pediátrico humanizado, promovendo um desenvolvimento saudável e acompanhamento integral da criança.',
     },
     {
       name: 'Dra. Marília Dantas',
@@ -133,7 +144,7 @@ const Team = () => {
     },
     {
       name: 'Dra. Renata Braga',
-      specialty: 'Psicologia',
+      specialty: 'Psicologia Infantil',
       crm: 'CRP/CE 1115683',
       photo: renataBraga,
       bio: 'Apoio psicológico e psicoterapia para o tratamentos emocionais, visando a saúde mental e qualidade de vida.',

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import logo from '../../assets/logo-clinica-galvao.png';
+import logo from '../../assets/logo-clinica-galvao.webp';
 import Button from '../ui/Button';
 import MobileMenu from './MobileMenu';
 

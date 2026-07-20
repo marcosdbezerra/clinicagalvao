@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Users, Heart, Target } from 'lucide-react';
 import SectionWrapper from '../ui/SectionWrapper';
-import ceosPhoto from '../../assets/ceos.jpg';
+import ceosPhoto from '../../assets/ceos.webp';
 
 const AboutCEO = () => {
   const values = [

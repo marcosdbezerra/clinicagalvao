@@ -10,7 +10,7 @@ import {
   Clock,
   Heart,
 } from 'lucide-react';
-import logo from '../../assets/logo-clinica-galvao.png';
+import logo from '../../assets/logo-clinica-galvao.webp';
 
 const Footer = () => {
   const scrollToSection = (id) => {

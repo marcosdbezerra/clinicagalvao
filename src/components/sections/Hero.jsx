@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Stethoscope, Heart, Users } from 'lucide-react';
-import fachada from '../../assets/fachada.jpg'
+import fachada from '../../assets/fachada.webp'
 import Button from '../ui/Button';
 
 const Hero = () => {

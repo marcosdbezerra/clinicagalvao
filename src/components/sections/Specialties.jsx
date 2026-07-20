@@ -115,6 +115,12 @@ const Specialties = () => {
       color: 'bg-emerald-100 text-emerald-600',
     },
     {
+      icon: <Baby className="w-8 h-8" />,
+      name: 'Pediatria',
+      description: 'Acompanhamento e cuidado da saúde infantil.',
+      color: 'bg-indigo-100 text-indigo-600',
+    },
+    {
       icon: <Brain className="w-8 h-8" />,
       name: 'Psicologia',
       description: 'Cuidado da saúde mental e emocional.',
