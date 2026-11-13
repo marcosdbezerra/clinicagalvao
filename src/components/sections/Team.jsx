@@ -12,6 +12,7 @@ import flavioStudart from '../../assets/team/flavio-studart.webp';
 import gilmarPinto from '../../assets/team/gilmar-pinto.webp';
 import jamilleMorais from '../../assets/team/jamille-morais.webp';
 import laylaMenezes from '../../assets/team/layla-menezes.webp';
+import mariaTereza from '../../assets/team/maria-tereza.webp';
 import mariliaDantas from '../../assets/team/marilia-dantas.webp';
 import moniqueChaves from '../../assets/team/monique-chaves.webp';
 import oliviaMagalhaes from '../../assets/team/olivia-magalhaes.webp';
@@ -111,7 +112,7 @@ const Team = () => {
       name: 'Dra. Maria Tereza',
       specialty: 'Saúde da Criança e Pediatria',
       crm: '',
-      photo: photoMock,
+      photo: mariaTereza,
       bio: 'Dedicada ao atendimento pediátrico humanizado, promovendo um desenvolvimento saudável e acompanhamento integral da criança.',
     },
     {
